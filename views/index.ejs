@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+    <h1>OPTIMA</h1>
+    <div id="wrapper">
+      <div id="left">
+
+    <!-- <h3>Option1</h3> -->
+
+    <button id="button1">Ask a question</button>
+
+    <form id="form1" method="post" parent='000'>
+      <!-- Ask a question:<br> -->
+      <input type="text" name="question" placeholder="Ask a question"><br>
+      <meta "name"></meta>
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+  <div id="right">
+    <!-- <h3>Option2</h3> -->
+    <button id="button2">Get a question</button>
+
+    <form id="form2" method="post" parent=<%= parent %>>
+      <!-- <p>1. Consider this question:</p> -->
+      <p><i><%= question %></i></p>
+      <p>☝️ Ask a question about this question</p>
+      <!-- Ask a question:<br> -->
+      <input type="text" name="question" placeholder="Ask a question"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

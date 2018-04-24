@@ -1,0 +1,38 @@
+#form1{
+  display: none;
+}
+
+#form2{
+  display: none;
+}
+
+#wrapper{
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+#left{
+  padding-right:50px;
+  width: 50%;
+  text-align: right;
+  height:300px;
+  line-height: 300px;
+  border-right: solid black 1px;
+}
+
+#right{
+  padding-left:50px;
+  width: 50%;
+  text-align: left;
+  height:300px;
+  /*line-height: 300px;*/
+  border-left: solid black 1px;
+}
+button, form{
+  margin-top:150px;
+}
